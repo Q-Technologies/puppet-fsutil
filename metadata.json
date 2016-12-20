@@ -1,0 +1,51 @@
+{
+  "name": "qtechnologies/qtlib",
+  "version": "1.0.0",
+  "author": "Q-Technologies",
+  "summary": "Puppet module containing some useful routines",
+  "license": "Apache-2.0",
+  "tags": ["lib"],
+  "source": "https://github.com/Q-Technologies/puppet-qtlib.git",
+  "project_page": "https://github.com/Q-Technologies/puppet-qtlib",
+  "issues_url": "https://github.com/Q-Technologies/puppet-qtlib/issues",
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"AIX",
+      "operatingsystemrelease": [
+        "6.1",
+        "7.1"
+      ]
+    },
+    {
+      "operatingsystem":"Debian",
+      "operatingsystemrelease": [
+        "7.0",
+        "8.0"
+      ]
+    },
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease": [
+        "6.0",
+        "7.0"
+      ]
+    },
+    {
+      "operatingsystem":"openSUSE",
+      "operatingsystemrelease": [
+        "42.1",
+        "42.2"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [ 
+        "11",
+        "12"
+     ]
+    }
+  ],
+  "data_provider": "hiera"
+}
+
