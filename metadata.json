@@ -1,13 +1,13 @@
 {
-  "name": "qtechnologies/qtlib",
-  "version": "1.0.0",
+  "name": "qtechnologies-fsutil",
+  "version": "1.0.1",
   "author": "Q-Technologies",
-  "summary": "Puppet module containing some useful routines",
+  "summary": "Some helpful filesystem functions to minimise code repetition.",
   "license": "Apache-2.0",
-  "tags": ["lib"],
-  "source": "https://github.com/Q-Technologies/puppet-qtlib.git",
-  "project_page": "https://github.com/Q-Technologies/puppet-qtlib",
-  "issues_url": "https://github.com/Q-Technologies/puppet-qtlib/issues",
+  "tags": ["nfs","mkdir_p","mktree","mount","tree"],
+  "source": "https://github.com/Q-Technologies/puppet-fsutil.git",
+  "project_page": "https://github.com/Q-Technologies/puppet-fsutil",
+  "issues_url": "https://github.com/Q-Technologies/puppet-fsutil/issues",
   "dependencies": [],
   "operatingsystem_support": [
     {
