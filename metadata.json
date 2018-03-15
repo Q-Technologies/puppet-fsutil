@@ -40,12 +40,11 @@
     },
     {
       "operatingsystem": "SLES",
-      "operatingsystemrelease": [ 
+      "operatingsystemrelease": [
         "11",
         "12"
      ]
     }
-  ],
-  "data_provider": "hiera"
+  ]
 }
 

@@ -7,7 +7,8 @@ define fsutil::mkmount(
   String $umask = '0022',
 ){
   fsutil::mkdir_p { $name:
-    umask   => $umask,
+    umask  => $umask,
+    before => File[$name],
   }
   file { $name:
     ensure => directory,

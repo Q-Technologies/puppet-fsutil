@@ -6,6 +6,7 @@ class fsutil(
   # Class parameters are populated from External(hiera)/Defaults/Fail
   Data $nfs_mounts = {},
   Data $tree = {},
+  Optional[String] $nfs_options = 'defaults',
 ){
 
   if $nfs_mounts =~ Hash and ! empty($nfs_mounts) {
