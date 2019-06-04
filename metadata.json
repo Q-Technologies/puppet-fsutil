@@ -4,35 +4,36 @@
   "author": "Q-Technologies",
   "summary": "Some helpful filesystem functions to minimise code repetition.",
   "license": "Apache-2.0",
-  "tags": ["nfs","mkdir_p","mktree","mount","tree"],
   "source": "https://github.com/Q-Technologies/puppet-fsutil.git",
   "project_page": "https://github.com/Q-Technologies/puppet-fsutil",
   "issues_url": "https://github.com/Q-Technologies/puppet-fsutil/issues",
-  "dependencies": [],
+  "dependencies": [
+
+  ],
   "operatingsystem_support": [
     {
-      "operatingsystem":"AIX",
+      "operatingsystem": "AIX",
       "operatingsystemrelease": [
         "6.1",
         "7.1"
       ]
     },
     {
-      "operatingsystem":"Debian",
+      "operatingsystem": "Debian",
       "operatingsystemrelease": [
         "7.0",
         "8.0"
       ]
     },
     {
-      "operatingsystem":"RedHat",
+      "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "6.0",
         "7.0"
       ]
     },
     {
-      "operatingsystem":"openSUSE",
+      "operatingsystem": "openSUSE",
       "operatingsystemrelease": [
         "42.1",
         "42.2"
@@ -43,8 +44,23 @@
       "operatingsystemrelease": [
         "11",
         "12"
-     ]
+      ]
     }
-  ]
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "tags": [
+    "nfs",
+    "mkdir_p",
+    "mktree",
+    "mount",
+    "tree"
+  ],
+  "pdk-version": "1.9.1",
+  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
+  "template-ref": "1.9.1-0-g6945d31"
 }
-
