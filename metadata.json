@@ -1,6 +1,6 @@
 {
   "name": "qtechnologies-fsutil",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Q-Technologies",
   "summary": "Some helpful filesystem functions to minimise code repetition.",
   "license": "Apache-2.0",
